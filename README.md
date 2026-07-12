@@ -20,13 +20,3 @@ A complete, production-ready e-commerce web application built with the MERN stac
 - **Pagination** — Products, orders, and users are paginated
 - **Email Notifications** — Welcome email on registration, order confirmation email (via Nodemailer)
 
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React 18, React Router v6, Axios, Vite |
-| Backend | Node.js, Express.js |
-| Database | MongoDB with Mongoose ODM |
-| Auth | JSON Web Tokens (JWT), bcryptjs |
-| File Upload | Multer |
-| Email | Nodemailer |
