@@ -50,7 +50,7 @@ const Navbar = () => {
           {menuOpen ? '✕' : '☰'}
         </button>
 
-        <nav className={`${menuOpen ? 'absolute left-4 right-4 top-[72px] flex flex-col gap-2 rounded-2xl border border-stone-200 bg-white p-4 shadow-lg md:static md:flex md:flex-1 md:items-center md:justify-end md:gap-4 md:border-0 md:bg-transparent md:p-0 md:shadow-none' : 'hidden md:flex md:flex-1 md:items-center md:justify-end md:gap-4'}`}>
+        <nav className={`${menuOpen ? 'absolute left-4 right-4 flex flex-col gap-2 rounded-2xl border border-stone-200 bg-white p-4 shadow-lg md:static md:flex md:flex-1 md:items-center md:justify-end md:gap-4 md:border-0 md:bg-transparent md:p-0 md:shadow-none' : 'hidden md:flex md:flex-1 md:items-center md:justify-end md:gap-4'}`}>
           <Link to="/products" className="text-sm font-medium text-slate-700" onClick={() => setMenuOpen(false)}>Products</Link>
           {user && <Link to="/wishlist" className="text-sm font-medium text-slate-700" onClick={() => setMenuOpen(false)}>Wishlist</Link>}
           {user && <Link to="/orders" className="text-sm font-medium text-slate-700" onClick={() => setMenuOpen(false)}>Orders</Link>}
